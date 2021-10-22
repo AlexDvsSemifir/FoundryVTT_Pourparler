@@ -1,57 +1,301 @@
 {
     "Actor": {
-      "types": ["hero", "pawn", "villain"],
+      "types": ["personnage", "pnj", "creatures"],
       "templates": {
-        "background": {
+        "identity": {
           "biography": "",
-          "hairColor": "blue"
+          "psychologie" : "",
+          "description": "",
+          "age": "",
+          "nom": "",
+          "pernom": ""
         },
-        "resources": {
-          "health": {
-            "min": 0,
-            "value": 10,
-            "max": 10
+        "combativity": {
+          "max": "null",
+          "min": 0,
+          "actuel": "null"
+        },
+        "blessures": {
+          "slot_1": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
           },
-          "power": {
-            "min": 0,
-            "value": 1,
-            "max": 3
+          "slot_2": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_3": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_4": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_5": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_6": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_7": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_8": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_9": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          },
+          "slot_10": {
+            "localisation": "",
+            "recu": 0,
+            "recup": 0
+          }
+        },
+        "caracteristiques": {
+          "cha": {
+            "min": 20,
+            "value": 35,
+            "max": 80
+          },
+          "for": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "ins": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "int": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "mob": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "vig": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "vol": {
+            "min" : 20,
+            "value": 35,
+            "max": 80
+          },
+          "destin": {
+            "value": 0,
+            "min" : 0,
+            "max": 4
+          },
+          "fortune": {
+            "value": 0,
+            "min" : 0,
+            "max": 4
+          }
+        },
+        "competences":{
+          "arm_feu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "ins"
+          },
+          "armb_lg": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "ins"
+          },
+          "armb_ld": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "for",
+            "carac_2": "ins"
+          },
+          "arti": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "int"
+          },
+          "comma": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "cha",
+            "carac_2": "ins"
+          },
+          "croc": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "int"
+          },
+          "degu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "cha",
+            "carac_2": "ins"
+          },
+          "disc": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "ins"
+          },
+          "educ": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "cha"
+          },
+          "endu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "vig",
+            "carac_2": "vol"
+          },
+          "equi": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "vig"
+          },
+          "escal": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "for",
+            "carac_2": "mob"
+          },
+          "escam": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "ins"
+          },
+          "esqu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "ins"
+          },
+          "eval": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "ins"
+          },
+          "inti": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "for",
+            "carac_2": "cha"
+          },
+          "jeu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "ins",
+            "carac_2": "cha"
+          },
+          "nata": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "mob",
+            "carac_2": "for"
+          },
+          "navi": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "ins",
+            "carac_2": "for"
+          },
+          "orie": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "ins"
+          },
+          "perc": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "ins"
+          },
+          "pers": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "ins"
+          },
+          "pist": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "ins"
+          },
+          "pugi": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "for",
+            "carac_2": "vig"
+          },
+          "rech": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "vol"
+          },
+          "res_alc": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "vig",
+            "carac_2": "for"
+          },
+          "rhet": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "cha",
+            "carac_2": "int"
+          },
+          "sedu": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "char",
+            "carac_2": "int"
+          },
+          "soin": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "int",
+            "carac_2": "mob"
+          },
+          "surv": {
+            "aquisition" : "null",
+            "value": 0,
+            "carac_1": "ins",
+            "carac_2": "vig"
           }
         }
-      },
-      "hero": {
-        "templates": ["background", "resources"],
-        "goodness": {
-          "value": 5,
-          "max": 10
-        }
-      },
-      "pawn": {
-        "templates": ["resources"]
-      },
-      "villain": {
-        "templates": ["background", "resources"],
-        "wickedness": {
-          "value": 5,
-          "max": 100
-        }
-      }
-    },
-    "Item": {
-      "types": ["weapon", "spell"],
-      "templates": {
-        "rarity": {
-          "rarity": "Common",
-          "price": 20
-        }
-      },
-      "weapon": {
-        "templates": ["rarity"],
-        "damage": 5
-      },
-      "spell": {
-        "templates": ["rarity"],
-        "cost": 2
       }
     }
-    }
+ }

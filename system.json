@@ -1,13 +1,12 @@
 {
-    "name": "Pourparler",
-    "title": "Piracy and more",
+    "name": "pourparler",
+    "title": "Pourparler",
     "description": "",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "templateVersion": 2,
     "author": "Oh_My_Goat",
     "scripts": [
-      "scripts/system-script-1.js",
-      "scripts/system-script-2.js"
+      "scripts/system-script-1.js"
     ],
     "esmodules": [
       "scripts/system-module-1.mjs"
@@ -32,18 +31,18 @@
     ],
     "languages": [
       {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
+        "lang": "fr",
+        "name": "French",
+        "path": "lang/fr.json"
       }
     ],
     "socket": false,
-    "initiative": "1d20",
+    "initiative": "1d100",
     "gridDistance": 10,
-    "gridUnits": "ft",
+    "gridUnits": "m",
     "primaryTokenAttribute": "resources.health",
-    "secondaryTokenAttribute": "resources.power",
-    "url": "https://your/hosted/system/repo/",
-    "manifest": "https://your/hosted/system/repo/system.json",
-    "download": "https://your/packaged/download/archive.zip"
+    "secondaryTokenAttribute": "null",
+    "url": "https://github.com/OhMyGoatSemifir/FoundryVTT_Pourparler.git",
+    "manifest": "https://github.com/OhMyGoatSemifir/FoundryVTT_Pourparler/blob/be7a907068ac2137e6c5bd0bd3bc9fae2b283128/system.json",
+    "download": "https://github.com/OhMyGoatSemifir/FoundryVTT_Pourparler/archive/refs/heads/master.zip"
   }
