@@ -1,301 +1,327 @@
 {
-    "Actor": {
-      "types": ["personnage", "pnj", "creatures"],
-      "templates": {
-        "identity": {
-          "biography": "",
-          "psychologie" : "",
-          "description": "",
-          "age": "",
-          "nom": "",
-          "pernom": ""
+  "Actor": {
+    "types": ["personnage", "pnj", "creatures"],
+    "templates": {
+      "id": {
+        "biography": "",
+        "psychologie" : "",
+        "description": "",
+        "age": "",
+        "nom": "",
+        "pernom": ""
+      },
+      "combat": {
+        "max": "null",
+        "min": 0,
+        "actuel": "null"
+      },
+      "blessures": {
+        "slot_1": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
         },
-        "combativity": {
-          "max": "null",
-          "min": 0,
-          "actuel": "null"
+        "slot_2": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
         },
-        "blessures": {
-          "slot_1": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_2": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_3": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_4": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_5": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_6": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_7": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_8": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_9": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          },
-          "slot_10": {
-            "localisation": "",
-            "recu": 0,
-            "recup": 0
-          }
+        "slot_3": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
         },
-        "caracteristiques": {
-          "cha": {
-            "min": 20,
-            "value": 35,
-            "max": 80
-          },
-          "for": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "ins": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "int": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "mob": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "vig": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "vol": {
-            "min" : 20,
-            "value": 35,
-            "max": 80
-          },
-          "destin": {
-            "value": 0,
-            "min" : 0,
-            "max": 4
-          },
-          "fortune": {
-            "value": 0,
-            "min" : 0,
-            "max": 4
-          }
+        "slot_4": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
         },
-        "competences":{
-          "arm_feu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "ins"
-          },
-          "armb_lg": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "ins"
-          },
-          "armb_ld": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "for",
-            "carac_2": "ins"
-          },
-          "arti": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "int"
-          },
-          "comma": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "cha",
-            "carac_2": "ins"
-          },
-          "croc": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "int"
-          },
-          "degu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "cha",
-            "carac_2": "ins"
-          },
-          "disc": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "ins"
-          },
-          "educ": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "cha"
-          },
-          "endu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "vig",
-            "carac_2": "vol"
-          },
-          "equi": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "vig"
-          },
-          "escal": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "for",
-            "carac_2": "mob"
-          },
-          "escam": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "ins"
-          },
-          "esqu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "ins"
-          },
-          "eval": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "ins"
-          },
-          "inti": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "for",
-            "carac_2": "cha"
-          },
-          "jeu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "ins",
-            "carac_2": "cha"
-          },
-          "nata": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "mob",
-            "carac_2": "for"
-          },
-          "navi": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "ins",
-            "carac_2": "for"
-          },
-          "orie": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "ins"
-          },
-          "perc": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "ins"
-          },
-          "pers": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "ins"
-          },
-          "pist": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "ins"
-          },
-          "pugi": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "for",
-            "carac_2": "vig"
-          },
-          "rech": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "vol"
-          },
-          "res_alc": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "vig",
-            "carac_2": "for"
-          },
-          "rhet": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "cha",
-            "carac_2": "int"
-          },
-          "sedu": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "char",
-            "carac_2": "int"
-          },
-          "soin": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "int",
-            "carac_2": "mob"
-          },
-          "surv": {
-            "aquisition" : "null",
-            "value": 0,
-            "carac_1": "ins",
-            "carac_2": "vig"
-          }
+        "slot_5": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
+        },
+        "slot_6": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
+        },
+        "slot_7": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
+        },
+        "slot_8": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
+        },
+        "slot_9": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
+        },
+        "slot_10": {
+          "localisation": "",
+          "recu": 0,
+          "recup": 0
         }
-      }
+      },
+      "carac": {
+        "cha": {
+          "min": 20,
+          "value": 35,
+          "max": 80
+        },
+        "for": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "ins": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "int": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "mob": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "vig": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "vol": {
+          "min" : 20,
+          "value": 35,
+          "max": 80
+        },
+        "destin": {
+          "value": 0,
+          "min" : 0,
+          "max": 4
+        },
+        "fortune": {
+          "value": 0,
+          "min" : 0,
+          "max": 4
+        }
+      },
+      "comp":{
+        "arm_feu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "ins"
+        },
+        "armb_lg": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "ins"
+        },
+        "armb_ld": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "for",
+          "carac_2": "ins"
+        },
+        "arti": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "int"
+        },
+        "comma": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "cha",
+          "carac_2": "ins"
+        },
+        "croc": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "int"
+        },
+        "degu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "cha",
+          "carac_2": "ins"
+        },
+        "disc": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "ins"
+        },
+        "educ": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "cha"
+        },
+        "endu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "vig",
+          "carac_2": "vol"
+        },
+        "equi": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "vig"
+        },
+        "escal": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "for",
+          "carac_2": "mob"
+        },
+        "escam": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "ins"
+        },
+        "esqu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "ins"
+        },
+        "eval": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "ins"
+        },
+        "inti": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "for",
+          "carac_2": "cha"
+        },
+        "jeu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "ins",
+          "carac_2": "cha"
+        },
+        "nata": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "mob",
+          "carac_2": "for"
+        },
+        "navi": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "ins",
+          "carac_2": "for"
+        },
+        "orie": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "ins"
+        },
+        "perc": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "ins"
+        },
+        "pers": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "ins"
+        },
+        "pist": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "ins"
+        },
+        "pugi": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "for",
+          "carac_2": "vig"
+        },
+        "rech": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "vol"
+        },
+        "res_alc": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "vig",
+          "carac_2": "for"
+        },
+        "rhet": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "cha",
+          "carac_2": "int"
+        },
+        "sedu": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "char",
+          "carac_2": "int"
+        },
+        "soin": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "int",
+          "carac_2": "mob"
+        },
+        "surv": {
+          "aquisition" : "null",
+          "value": 0,
+          "carac_1": "ins",
+          "carac_2": "vig"
+        }
+      },
+      "argent": {
+        "real": 0,
+        "p8": 0,
+        "doub": 0
+      },
+      "spec_comp":[],
+      "talents": [],
+      "tares":[]
+    },
+    "personnage" :{
+      "templates": ["id", "combat", "blessures", "carac", "comp", "argent", "spec_comp", "talents", "tares"]
+    },
+    "npc": {
+      "templates": ["id", "combat", "carac", "comp", "argent", "talents", "tares"],
+      "possessions": {
+        "loot" : []
+      },
+      "pv": 0
+    },
+    "creatures": {
+      "templates": ["id", "combat", "carac", "spec_comp", "talents", "tares"],
+      "pv": 0,
+      "loot": []
     }
- }
+  },
+  "items": {
+    "types": ["armes", "vetements", "consommables", "loot", "livre", "potion", "butin"]
+  }
+}
